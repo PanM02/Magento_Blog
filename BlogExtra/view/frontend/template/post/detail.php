@@ -1,0 +1,12 @@
+<?php
+/** @var Magento\Framework\View\Element\Template $block */
+/** @var Orba\Blog\ViewModel\Post $postVm */
+/** @var Magento\Framework\Escaper $escaper*/
+
+$postVm = $block->getData('post_vm');
+$post=$postVm->getDetail();
+?>
+<div class="blog-post-detail">
+    <h1><?= $escaper->escapeHtml($post->getTitle()) ?></h1>
+    <p><?= $escaper->escapeHtml($post->getContent(),['em','p','strong']) ?></p>
+</div>

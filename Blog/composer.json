@@ -1,0 +1,15 @@
+{
+    "name": "orba/module-blog",
+    "description": "just another blog module",
+    "require": {
+        "php": "^8.1"
+    },
+    "type": "magento2-module",
+    "license": [ "MIT" ],
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Orba\\Blog\\": ""
+        }
+    }
+}

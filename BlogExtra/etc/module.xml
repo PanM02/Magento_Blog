@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xml">
+     <module name="Orba_BlogExtra">
+        <sequency>
+            <module name="Orba_Blog"/>
+        </sequency>
+     </module>
+</config>
+
